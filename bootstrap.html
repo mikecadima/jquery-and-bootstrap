@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    
+
+    <title>Bootstrap Practice</title>
+  </head>
+  <body>
+    <h1>Hello, Mike!</h1>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+
+<!-- 4 + 4 + 4 = 12 -->
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+    <div class="col-4"></div>
+  </div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
+
+    <!-- 50% wide on extra small (mobile first) -->
+<!-- and 33.3% wide on medium screens (desktop) -->
+<div class="row">
+    <div class="col-6 col-md-4">one</div>
+    <div class="col-6 col-md-4">two</div>
+    <div class="col-6 col-md-4">three</div>
+  </div>
+<!-- small exercise form-->
+  <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col">
+        <h1>Contact Us</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+              aria-describedby="nameHelp"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+              aria-describedby="emailHelp"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Contact Us</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- medium exercise -->
+<div class="container-fluid">
+    <header class="row align-items-center">
+      <div class="col">
+        <h1 class="mb-0">Our Company</h1>
+      </div>
+      <div class="col-md-auto">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Company</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <hr />
+
+  <section class="container">
+    <div class="row">
+      <div class="col text-center mt-5 mb-5">
+        <h1 class="display-1">We are Awesome</h1>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="display-3">The Main Display</h2>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-auto">
+        <h3>Boldness 1</h3>
+        <ul>
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+        </ul>
+      </div>
+      <div class="col-auto">
+        <h3>Boldness 2</h3>
+        <ul>
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+        </ul>
+      </div>
+      <div class="col-auto">
+        <h3>Boldness 3</h3>
+        <ul>
+          <li>Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <div class="container mt-5 mb-5">
+    <div class="row justify-content-around">
+      <div class="col-auto">
+        <div class="card">
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            class="card-img-top"
+            alt="random image"
+          />
+          <div class="card-body">
+            <p class="card-text"> photo 1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-auto">
+        <div class="card">
+          <img
+            src="https://picsum.photos/300/200"
+            class="card-img-top"
+            alt="random image"
+          />
+          <div class="card-body">
+            <p class="card-text"> photo 2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr />
+
+  <footer class="container text-center pb-3">
+    <div class="row">
+      <div class="col">Footer</div>
+      <!-- <button type="button" class="btn btn-link" >Large Mario</button> -->
+        <a href="bootstrap2.html">Large Mario</a>
+    </div>
+  </footer>
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
